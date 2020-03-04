@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#button {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#hint {
+  display: inline-block;
+  padding: 1rem;
+  visibility: hidden;
+}
